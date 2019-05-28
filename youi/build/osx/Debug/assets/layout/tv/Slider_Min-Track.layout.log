@@ -1,0 +1,118 @@
+activecomp {
+  name: "Slider_Min-Track"
+  width: 1426
+  height: 48
+  defaultcameradistance: 1980.5555
+  layer {
+    name: "Min-Track-Solid"
+    id: 178
+    sourceid: 357
+    transform {
+      anchorPoint {
+        x: 713
+        y: 9
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 713
+        y: 24
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Min-Track-Image"
+    id: 179
+    sourceid: 977
+    transform {
+      anchorPoint {
+        x: 713
+        y: 24
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 713
+        y: 24
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "scale-mode"
+      value: "stretch"
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.76078431372549016
+    green: 0.76078431372549016
+    blue: 0.76078431372549016
+  }
+  properties {
+    key: "gravity"
+    value: "center"
+  }
+  properties {
+    key: "scale-mode"
+    value: "fit"
+  }
+  properties {
+    key: "height"
+    value: "fit-content"
+  }
+  childtemplates: "Slider_Min-Track-Image"
+}
+sources {
+  uid: 357
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.24313700199127197
+    green: 0.76078397035598755
+    blue: 0.81176501512527466
+  }
+  width: 1426
+  height: 18
+  copy_source: false
+}
+sources {
+  uid: 977
+  srctype: AE_COMP_SRC
+  name: "Slider_Min-Track-Image.layout"
+  width: 1426
+  height: 48
+  copy_source: true
+}

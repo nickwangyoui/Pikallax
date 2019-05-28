@@ -1,0 +1,102 @@
+activecomp {
+  name: "Slider_Thumb"
+  width: 66
+  height: 66
+  defaultcameradistance: 91.666664
+  layer {
+    name: "Thumb-Solid"
+    id: 563
+    sourceid: 613
+    transform {
+      anchorPoint {
+        x: 33
+        y: 33
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 33
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Thumb-Image"
+    id: 564
+    sourceid: 575
+    transform {
+      anchorPoint {
+        x: 33
+        y: 33
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 33
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.94509803921568625
+    green: 0.94509803921568625
+    blue: 0.94509803921568625
+  }
+  childtemplates: "Slider_Thumb-Image"
+}
+sources {
+  uid: 613
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.24313700199127197
+    green: 0.76078397035598755
+    blue: 0.81176501512527466
+  }
+  width: 66
+  height: 66
+  copy_source: false
+}
+sources {
+  uid: 575
+  srctype: AE_COMP_SRC
+  name: "Slider_Thumb-Image.layout"
+  width: 66
+  height: 66
+  copy_source: true
+}

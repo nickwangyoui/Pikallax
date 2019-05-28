@@ -1,0 +1,22 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 629
+  targetname: "Max-Track-Solid"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 630
+  targetname: "Max-Track-Image"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

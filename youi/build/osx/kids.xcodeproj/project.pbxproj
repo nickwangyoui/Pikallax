@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		408FAE2F2BDE4DCCA2640647 /* CopyAssets */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 88082FD90999404B8A737CEC /* Build configuration list for PBXAggregateTarget "CopyAssets" */;
+			buildPhases = (
+				986AFB145F4241C6AE233217 /* CMake Rules */,
+				2A8E85A371D94E3FA5A50236 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				091A97CC74A54C508AD2DEF6 /* PBXTargetDependency */,
+			);
+			name = CopyAssets;
+			productName = CopyAssets;
+		};
+		62F6FA889358411B8183C7B5 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DC28CF50DB594182B6498F79 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				10F8F5CBF88F470BB9308271 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		91D0E2625BD543E98306B77D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B73337B4616348129F08D9C7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				AB26432F5D944C44B5AD6608 /* CMake Rules */,
+			);
+			dependencies = (
+				ED4A19B5076D4038BBA55B78 /* PBXTargetDependency */,
+				4A6A8E13FDEC441EB0B1C0BB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		21FDCDC55A494D96A0B657C2 /* /Users/nickwang/youidev/git/kids/youi/src/AppFactory.cpp */ = {isa = PBXBuildFile; fileRef = AF94EAF034254486B8DD887A /* /Users/nickwang/youidev/git/kids/youi/src/AppFactory.cpp */; };
+		228F9BF5806C49629F2839FB /* /Users/nickwang/youidev/git/kids/youi/src/App.h */ = {isa = PBXBuildFile; fileRef = AF1AE0062A4A415EBB798EEA /* /Users/nickwang/youidev/git/kids/youi/src/App.h */; };
+		269464570A544933A70B4543 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/mainDefault.cpp */ = {isa = PBXBuildFile; fileRef = 0E5FBD3DAB1A422B9085B09A /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/mainDefault.cpp */; };
+		3F123B108FC84C4A96265FDA /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.cpp */ = {isa = PBXBuildFile; fileRef = 092ADD2AD443480EAADD8902 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.cpp */; };
+		4E16479DB65B440B915B1B42 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.h */ = {isa = PBXBuildFile; fileRef = 4AC2535108FA43DFB1840342 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.h */; };
+		6EB30D5111E7463DB56ED169 /* /Users/nickwang/youidev/git/kids/youi/src/App.cpp */ = {isa = PBXBuildFile; fileRef = 49C05B14BEAD4F5A8A55B6BF /* /Users/nickwang/youidev/git/kids/youi/src/App.cpp */; };
+		EA57D3A38C504AFF855AF1C6 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C198AD2BA8CB48D088BAB181 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		8632B6D3CDEA492B9C9A3BD7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A6DDDD84686744C7829CE827 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E8962A6FF2E645C9BAFCB1D5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F78D035EF2DA4A80B3CCBC00 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0DEF3138F9A24304B1F10A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012C526030F8418CB65AD467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F6FA889358411B8183C7B5;
+			remoteInfo = ZERO_CHECK;
+		};
+		5024EFF38E9B49998050E14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012C526030F8418CB65AD467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F6FA889358411B8183C7B5;
+			remoteInfo = ZERO_CHECK;
+		};
+		7C8EDC6F7D0C463F962A70CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012C526030F8418CB65AD467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53D4C711E9C4CBCA2D35555;
+			remoteInfo = kids;
+		};
+		91ED69A9B90C4C8A8C3733A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012C526030F8418CB65AD467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408FAE2F2BDE4DCCA2640647;
+			remoteInfo = CopyAssets;
+		};
+		E45441183EC2480E97405B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012C526030F8418CB65AD467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F6FA889358411B8183C7B5;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092ADD2AD443480EAADD8902 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AppFactory.cpp; path = "../../../../youiengine/5.1.0-cr2/templates/mains/src/AppFactory.cpp"; sourceTree = SOURCE_ROOT; };
+		0DFBB498836348E0BF3A14EC /* kids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = kids; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5FBD3DAB1A422B9085B09A /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/mainDefault.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mainDefault.cpp; path = "../../../../youiengine/5.1.0-cr2/templates/mains/src/mainDefault.cpp"; sourceTree = SOURCE_ROOT; };
+		3EBEDF27B1CB4C62A67AE557 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		49C05B14BEAD4F5A8A55B6BF /* /Users/nickwang/youidev/git/kids/youi/src/App.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = App.cpp; path = src/App.cpp; sourceTree = SOURCE_ROOT; };
+		4AC2535108FA43DFB1840342 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AppFactory.h; path = "../../../../youiengine/5.1.0-cr2/templates/mains/src/AppFactory.h"; sourceTree = SOURCE_ROOT; };
+		4C6832A7DA0A4AA89CB32DA0 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AF1AE0062A4A415EBB798EEA /* /Users/nickwang/youidev/git/kids/youi/src/App.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = App.h; path = src/App.h; sourceTree = SOURCE_ROOT; };
+		AF94EAF034254486B8DD887A /* /Users/nickwang/youidev/git/kids/youi/src/AppFactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AppFactory.cpp; path = src/AppFactory.cpp; sourceTree = SOURCE_ROOT; };
+		C198AD2BA8CB48D088BAB181 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F5390EE44D643CEA8C0BB9D /* kids */ = {
+			isa = PBXGroup;
+			children = (
+				30BA8ABEF5FC4F8BB0D4E2BC /* Source Files */,
+				CEF6DD4CCD36452795B3FA19 /* Header Files */,
+				C198AD2BA8CB48D088BAB181 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */,
+			);
+			name = kids;
+			sourceTree = "<group>";
+		};
+		29335024568442C588AB653E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				BB7E6FBEAE7F4286A0D26670 /* CMake Rules */,
+				3EBEDF27B1CB4C62A67AE557 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		30BA8ABEF5FC4F8BB0D4E2BC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F481B887CD412DB05BC887 /* App */,
+				49C05B14BEAD4F5A8A55B6BF /* /Users/nickwang/youidev/git/kids/youi/src/App.cpp */,
+				AF94EAF034254486B8DD887A /* /Users/nickwang/youidev/git/kids/youi/src/AppFactory.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		32DEC73F83174B859D2EAB04 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		60A28C57065D4D959D2B2410 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4AC2535108FA43DFB1840342 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.h */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		91FF5276C361421482D7E364 = {
+			isa = PBXGroup;
+			children = (
+				E25A20F442D94A11AD7A53CA /* CopyAssets */,
+				0F5390EE44D643CEA8C0BB9D /* kids */,
+				29335024568442C588AB653E /* ALL_BUILD */,
+				B8D69C498E03464DB568C14C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97F481B887CD412DB05BC887 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				092ADD2AD443480EAADD8902 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.cpp */,
+				0E5FBD3DAB1A422B9085B09A /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/mainDefault.cpp */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		B8D69C498E03464DB568C14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DFBB498836348E0BF3A14EC /* kids */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7E6FBEAE7F4286A0D26670 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CEF6DD4CCD36452795B3FA19 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				60A28C57065D4D959D2B2410 /* App */,
+				AF1AE0062A4A415EBB798EEA /* /Users/nickwang/youidev/git/kids/youi/src/App.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E25A20F442D94A11AD7A53CA /* CopyAssets */ = {
+			isa = PBXGroup;
+			children = (
+				32DEC73F83174B859D2EAB04 /* CMake Rules */,
+				4C6832A7DA0A4AA89CB32DA0 /* /Users/nickwang/youidev/git/kids/youi/CMakeLists.txt */,
+			);
+			name = CopyAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53D4C711E9C4CBCA2D35555 /* kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0266B3A429154589B73D48E4 /* Build configuration list for PBXNativeTarget "kids" */;
+			buildPhases = (
+				2439F0679A8A4482B28862DA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94357F2900348E3969611D9 /* PBXTargetDependency */,
+				E9225269AB3848D68C0342F6 /* PBXTargetDependency */,
+			);
+			name = kids;
+			productName = kids;
+			productReference = 0DFBB498836348E0BF3A14EC /* kids */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012C526030F8418CB65AD467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 7924AA67E20E4EC4BB58AAE6 /* Build configuration list for PBXProject "kids" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8632B6D3CDEA492B9C9A3BD7 /* Debug */,
+				A6DDDD84686744C7829CE827 /* Release */,
+				E8962A6FF2E645C9BAFCB1D5 /* MinSizeRel */,
+				F78D035EF2DA4A80B3CCBC00 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 91FF5276C361421482D7E364;
+			projectDirPath = ../../;
+			projectRoot = "";
+			targets = (
+				91D0E2625BD543E98306B77D /* ALL_BUILD */,
+				408FAE2F2BDE4DCCA2640647 /* CopyAssets */,
+				62F6FA889358411B8183C7B5 /* ZERO_CHECK */,
+				C53D4C711E9C4CBCA2D35555 /* kids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F8F5CBF88F470BB9308271 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickwang/youidev/git/kids/youi/build/osx -f /Users/nickwang/youidev/git/kids/youi/build/osx/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2A8E85A371D94E3FA5A50236 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickwang/youidev/git/kids/youi/build/osx -f /Users/nickwang/youidev/git/kids/youi/build/osx/CMakeScripts/CopyAssets_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8C856BE73E6546A8886BA7D2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		986AFB145F4241C6AE233217 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickwang/youidev/git/kids/youi/build/osx -f /Users/nickwang/youidev/git/kids/youi/build/osx/CMakeScripts/CopyAssets_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AB26432F5D944C44B5AD6608 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickwang/youidev/git/kids/youi/build/osx -f /Users/nickwang/youidev/git/kids/youi/build/osx/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B770D5A9D8DE40E59E25CC9F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D7B78C7C9E67463798693FBA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2439F0679A8A4482B28862DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB30D5111E7463DB56ED169 /* /Users/nickwang/youidev/git/kids/youi/src/App.cpp */,
+				21FDCDC55A494D96A0B657C2 /* /Users/nickwang/youidev/git/kids/youi/src/AppFactory.cpp */,
+				3F123B108FC84C4A96265FDA /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/AppFactory.cpp */,
+				269464570A544933A70B4543 /* /Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src/mainDefault.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091A97CC74A54C508AD2DEF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F6FA889358411B8183C7B5 /* ZERO_CHECK */;
+			targetProxy = 0DEF3138F9A24304B1F10A52 /* PBXContainerItemProxy */;
+		};
+		4A6A8E13FDEC441EB0B1C0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F6FA889358411B8183C7B5 /* ZERO_CHECK */;
+			targetProxy = E45441183EC2480E97405B9E /* PBXContainerItemProxy */;
+		};
+		B94357F2900348E3969611D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408FAE2F2BDE4DCCA2640647 /* CopyAssets */;
+			targetProxy = 91ED69A9B90C4C8A8C3733A1 /* PBXContainerItemProxy */;
+		};
+		E9225269AB3848D68C0342F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F6FA889358411B8183C7B5 /* ZERO_CHECK */;
+			targetProxy = 5024EFF38E9B49998050E14F /* PBXContainerItemProxy */;
+		};
+		ED4A19B5076D4038BBA55B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53D4C711E9C4CBCA2D35555 /* kids */;
+			targetProxy = 7C8EDC6F7D0C463F962A70CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A76EB08D94F87AB3EF877 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx/build;
+			};
+			name = RelWithDebInfo;
+		};
+		211DAE729D204C3DAEB19071 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/nickwang/youidev/git/kids/youi/build/osx/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FOLLY_MINIMAL_CONFIGURATION,"'FOLLY_HAVE_CLOCK_GETTIME=1'","'FOLLY_USE_LIBCPP=1'","'GOOGLE_GLOG_DLL_DECL='",YI_OSX,YI_OPENSSL_AVAILABLE,ASIO_STANDALONE,YI_WEBSOCKETPP_AVAILABLE,YI_OPENGL2_RENDERING,YI_GLFW,YI_FONT_ATLAS,"'UNISTR_FROM_CHAR_EXPLICIT=explicit'","'UNISTR_FROM_STRING_EXPLICIT=explicit'","'U_HAVE_ATOMIC=1'","'U_USING_ICU_NAMESPACE=0'",U_STATIC_IMPLEMENTATION,_WEBSOCKETPP_CPP11_STL_,"'EASY_PROFILER_STATIC=1'","'EASY_PROFILER_VERSION_MAJOR=2'","'EASY_PROFILER_VERSION_MINOR=1'","'EASY_PROFILER_VERSION_PATCH=0'","'EASY_DEFAULT_PORT=28077'","'BUILD_WITH_EASY_PROFILER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickwang/youidev/git/kids/youi/src,"/Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wno-float-equal -Wpointer-arith -Wwrite-strings -Wunused-variable -Wno-unused-parameter -Wno-unused-result -Wno-unused-function -Werror -Wno-deprecated-declarations -Wshorten-64-to-32 '-DEASY_CHRONO_STEADY_CLOCK=0' '-DEASY_CHRONO_HIGHRES_CLOCK=1' '-DEASY_OPTION_START_LISTEN_ON_STARTUP=0' '-DEASY_OPTION_MEASURE_STORAGE_EXPAND=0' '-DEASY_OPTION_STORAGE_EXPAND_BLOCKS_ON=0' '-DEASY_OPTION_IMPLICIT_THREAD_REGISTRATION=1' '-DEASY_OPTION_REMOVE_EMPTY_UNGUARDED_THREADS=0' '-DEASY_OPTION_LOG_ENABLED=0' '-DEASY_OPTION_PRETTY_PRINT_FUNCTIONS=0' '-DEASY_OPTION_BUILTIN_COLORS=1' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libreactd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libReactCommond.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfolly_based.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libdouble-conversiond.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglogd.a -framework JavaScriptCore /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libyouiengined.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobufd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobuf-lited.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libssl.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libcrypto.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdecoderd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdemuxd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libpngd.a -lm /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libjpegd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfreetyped.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libzd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicui18nd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libiculxd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libiculed.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicuucd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicudatad.a    /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libtinyxml2d.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libduktaped.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libeasy_profilerd.a -lpthread -framework Cocoa -framework AudioUnit -framework AVFoundation -framework CFNetwork -framework CoreMedia -framework CoreAudio -framework AudioToolbox -framework QuartzCore -framework SystemConfiguration /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglfw3d.a   -framework AppKit  -framework CoreData  -framework Foundation  -framework IOKit  -framework CoreFoundation  -framework CoreVideo /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/nickwang/youiengine/5.1.0-cr2/include/react","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon/yoga","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk/platform/osx","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/freetype2");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2D00DAA346EA4BFF9C02FACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		42A98940AFF54E6491248D26 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/nickwang/youidev/git/kids/youi/build/osx/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FOLLY_MINIMAL_CONFIGURATION,"'FOLLY_HAVE_CLOCK_GETTIME=1'","'FOLLY_USE_LIBCPP=1'","'GOOGLE_GLOG_DLL_DECL='",YI_OSX,YI_OPENSSL_AVAILABLE,ASIO_STANDALONE,YI_WEBSOCKETPP_AVAILABLE,YI_OPENGL2_RENDERING,YI_GLFW,YI_FONT_ATLAS,"'UNISTR_FROM_CHAR_EXPLICIT=explicit'","'UNISTR_FROM_STRING_EXPLICIT=explicit'","'U_HAVE_ATOMIC=1'","'U_USING_ICU_NAMESPACE=0'",U_STATIC_IMPLEMENTATION,_WEBSOCKETPP_CPP11_STL_,"'EASY_PROFILER_STATIC=1'","'EASY_PROFILER_VERSION_MAJOR=2'","'EASY_PROFILER_VERSION_MINOR=1'","'EASY_PROFILER_VERSION_PATCH=0'","'EASY_DEFAULT_PORT=28077'","'BUILD_WITH_EASY_PROFILER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickwang/youidev/git/kids/youi/src,"/Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wno-float-equal -Wpointer-arith -Wwrite-strings -Wunused-variable -Wno-unused-parameter -Wno-unused-result -Wno-unused-function -Werror -Wno-deprecated-declarations -Wshorten-64-to-32 '-DEASY_CHRONO_STEADY_CLOCK=0' '-DEASY_CHRONO_HIGHRES_CLOCK=1' '-DEASY_OPTION_START_LISTEN_ON_STARTUP=0' '-DEASY_OPTION_MEASURE_STORAGE_EXPAND=0' '-DEASY_OPTION_STORAGE_EXPAND_BLOCKS_ON=0' '-DEASY_OPTION_IMPLICIT_THREAD_REGISTRATION=1' '-DEASY_OPTION_REMOVE_EMPTY_UNGUARDED_THREADS=0' '-DEASY_OPTION_LOG_ENABLED=0' '-DEASY_OPTION_PRETTY_PRINT_FUNCTIONS=0' '-DEASY_OPTION_BUILTIN_COLORS=1' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libreactd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libReactCommond.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfolly_based.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libdouble-conversiond.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglogd.a -framework JavaScriptCore /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libyouiengined.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobufd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobuf-lited.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libssl.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libcrypto.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdecoderd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdemuxd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libpngd.a -lm /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libjpegd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfreetyped.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libzd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicui18nd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libiculxd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libiculed.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicuucd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicudatad.a    /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libtinyxml2d.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libduktaped.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libeasy_profilerd.a -lpthread -framework Cocoa -framework AudioUnit -framework AVFoundation -framework CFNetwork -framework CoreMedia -framework CoreAudio -framework AudioToolbox -framework QuartzCore -framework SystemConfiguration /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglfw3d.a   -framework AppKit  -framework CoreData  -framework Foundation  -framework IOKit  -framework CoreFoundation  -framework CoreVideo /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/nickwang/youiengine/5.1.0-cr2/include/react","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon/yoga","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk/platform/osx","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/freetype2");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4AD39CBB0C194DBFBF6DDF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx/build;
+			};
+			name = Release;
+		};
+		57D46F19766941AD947E1266 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		74D70D83E9A3482DB43B42ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7795EE371FEF4DE5A06931D9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx/build;
+			};
+			name = MinSizeRel;
+		};
+		807533A7AB784AACA71D7ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CopyAssets;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		84DC82AE13DA48279CE65CFB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CopyAssets;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A7F5BEEF09A740CD973C6E65 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ACCF63DB5D25436FA2B767D4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B3F33593E6B14806978F5B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/nickwang/youidev/git/kids/youi/build/osx/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FOLLY_MINIMAL_CONFIGURATION,"'FOLLY_HAVE_CLOCK_GETTIME=1'","'FOLLY_USE_LIBCPP=1'","'GOOGLE_GLOG_DLL_DECL='",YI_OSX,YI_OPENSSL_AVAILABLE,ASIO_STANDALONE,YI_WEBSOCKETPP_AVAILABLE,YI_OPENGL2_RENDERING,YI_GLFW,YI_DEBUG,YI_FONT_ATLAS,PNG_DEBUG,"'UNISTR_FROM_CHAR_EXPLICIT=explicit'","'UNISTR_FROM_STRING_EXPLICIT=explicit'","'U_HAVE_ATOMIC=1'","'U_USING_ICU_NAMESPACE=0'",U_STATIC_IMPLEMENTATION,_WEBSOCKETPP_CPP11_STL_,TINYXML2_DEBUG,"'EASY_PROFILER_STATIC=1'","'EASY_PROFILER_VERSION_MAJOR=2'","'EASY_PROFILER_VERSION_MINOR=1'","'EASY_PROFILER_VERSION_PATCH=0'","'EASY_DEFAULT_PORT=28077'","'BUILD_WITH_EASY_PROFILER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickwang/youidev/git/kids/youi/src,"/Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wno-float-equal -Wpointer-arith -Wwrite-strings -Wunused-variable -Wno-unused-parameter -Wno-unused-result -Wno-unused-function -Werror         -Wno-deprecated-declarations -Wshorten-64-to-32 '-DEASY_CHRONO_STEADY_CLOCK=0' '-DEASY_CHRONO_HIGHRES_CLOCK=1' '-DEASY_OPTION_START_LISTEN_ON_STARTUP=0' '-DEASY_OPTION_MEASURE_STORAGE_EXPAND=0' '-DEASY_OPTION_STORAGE_EXPAND_BLOCKS_ON=0' '-DEASY_OPTION_IMPLICIT_THREAD_REGISTRATION=1' '-DEASY_OPTION_REMOVE_EMPTY_UNGUARDED_THREADS=0' '-DEASY_OPTION_LOG_ENABLED=0' '-DEASY_OPTION_PRETTY_PRINT_FUNCTIONS=0' '-DEASY_OPTION_BUILTIN_COLORS=1' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libreactd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libReactCommond.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfolly_based.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libdouble-conversiond.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglogd.a -framework JavaScriptCore /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libyouiengined.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobufd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobuf-lited.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libssl.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libcrypto.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdecoderd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdemuxd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libpngd.a -lm /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libjpegd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfreetyped.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libzd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicui18nd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libiculxd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libiculed.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicuucd.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicudatad.a    /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libtinyxml2d.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libduktaped.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libeasy_profilerd.a -lpthread -framework Cocoa -framework AudioUnit -framework AVFoundation -framework CFNetwork -framework CoreMedia -framework CoreAudio -framework AudioToolbox -framework QuartzCore -framework SystemConfiguration /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglfw3d.a   -framework AppKit  -framework CoreData  -framework Foundation  -framework IOKit  -framework CoreFoundation  -framework CoreVideo /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/nickwang/youiengine/5.1.0-cr2/include/react","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon/yoga","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk/platform/osx","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/freetype2");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B528C8494FE44D4FB8F805D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B895E52E8C24448386ADF785 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CopyAssets;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CA2950CC0C65438C95C0DC65 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CCBABA68672C4C83B605C349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CopyAssets;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D25B3C5EB2244FB8BAB0C07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/nickwang/youidev/git/kids/youi/build/osx/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FOLLY_MINIMAL_CONFIGURATION,"'FOLLY_HAVE_CLOCK_GETTIME=1'","'FOLLY_USE_LIBCPP=1'","'GOOGLE_GLOG_DLL_DECL='",YI_OSX,YI_OPENSSL_AVAILABLE,ASIO_STANDALONE,YI_WEBSOCKETPP_AVAILABLE,YI_OPENGL2_RENDERING,YI_GLFW,YI_FONT_ATLAS,"'UNISTR_FROM_CHAR_EXPLICIT=explicit'","'UNISTR_FROM_STRING_EXPLICIT=explicit'","'U_HAVE_ATOMIC=1'","'U_USING_ICU_NAMESPACE=0'",U_STATIC_IMPLEMENTATION,_WEBSOCKETPP_CPP11_STL_,"'EASY_PROFILER_STATIC=1'","'EASY_PROFILER_VERSION_MAJOR=2'","'EASY_PROFILER_VERSION_MINOR=1'","'EASY_PROFILER_VERSION_PATCH=0'","'EASY_DEFAULT_PORT=28077'","'BUILD_WITH_EASY_PROFILER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickwang/youidev/git/kids/youi/src,"/Users/nickwang/youiengine/5.1.0-cr2/templates/mains/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wno-float-equal -Wpointer-arith -Wwrite-strings -Wunused-variable -Wno-unused-parameter -Wno-unused-result -Wno-unused-function -Werror     -Wno-deprecated-declarations -Wshorten-64-to-32 '-DEASY_CHRONO_STEADY_CLOCK=0' '-DEASY_CHRONO_HIGHRES_CLOCK=1' '-DEASY_OPTION_START_LISTEN_ON_STARTUP=0' '-DEASY_OPTION_MEASURE_STORAGE_EXPAND=0' '-DEASY_OPTION_STORAGE_EXPAND_BLOCKS_ON=0' '-DEASY_OPTION_IMPLICIT_THREAD_REGISTRATION=1' '-DEASY_OPTION_REMOVE_EMPTY_UNGUARDED_THREADS=0' '-DEASY_OPTION_LOG_ENABLED=0' '-DEASY_OPTION_PRETTY_PRINT_FUNCTIONS=0' '-DEASY_OPTION_BUILTIN_COLORS=1' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libreact.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libReactCommon.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfolly_base.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libdouble-conversion.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglog.a -framework JavaScriptCore /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/libyouiengine.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobuf.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libprotobuf-lite.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libssl.a  /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libcrypto.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdecoder.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebpdemux.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libwebp.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libpng.a -lm /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libjpeg.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libfreetype.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libz.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicui18n.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libiculx.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicule.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicuuc.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libicudata.a    /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libtinyxml2.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libduktape.a /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libeasy_profiler.a -lpthread -framework Cocoa -framework AudioUnit -framework AVFoundation -framework CFNetwork -framework CoreMedia -framework CoreAudio -framework AudioToolbox -framework QuartzCore -framework SystemConfiguration /Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/lib/libglfw3.a   -framework AppKit  -framework CoreData  -framework Foundation  -framework IOKit  -framework CoreFoundation  -framework CoreVideo /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/nickwang/youiengine/5.1.0-cr2/include/react","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/ReactCommon/yoga","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk","/Users/nickwang/youiengine/5.1.0-cr2/include/sdk/platform/osx","/Users/nickwang/youiengine/5.1.0-cr2/libs/osx/thirdparty/include/freetype2");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D3B8012E52A148E9A1C02F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DC703CA8822845C287410F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/nickwang/youidev/git/kids/youi/build/osx/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0266B3A429154589B73D48E4 /* Build configuration list for PBXNativeTarget "kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F33593E6B14806978F5B73 /* Debug */,
+				D25B3C5EB2244FB8BAB0C07D /* Release */,
+				42A98940AFF54E6491248D26 /* MinSizeRel */,
+				211DAE729D204C3DAEB19071 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7924AA67E20E4EC4BB58AAE6 /* Build configuration list for PBXProject "kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC703CA8822845C287410F58 /* Debug */,
+				4AD39CBB0C194DBFBF6DDF1B /* Release */,
+				7795EE371FEF4DE5A06931D9 /* MinSizeRel */,
+				015A76EB08D94F87AB3EF877 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88082FD90999404B8A737CEC /* Build configuration list for PBXAggregateTarget "CopyAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807533A7AB784AACA71D7ACD /* Debug */,
+				CCBABA68672C4C83B605C349 /* Release */,
+				B895E52E8C24448386ADF785 /* MinSizeRel */,
+				84DC82AE13DA48279CE65CFB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B73337B4616348129F08D9C7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D70D83E9A3482DB43B42ED /* Debug */,
+				D3B8012E52A148E9A1C02F24 /* Release */,
+				ACCF63DB5D25436FA2B767D4 /* MinSizeRel */,
+				57D46F19766941AD947E1266 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC28CF50DB594182B6498F79 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D00DAA346EA4BFF9C02FACE /* Debug */,
+				B528C8494FE44D4FB8F805D9 /* Release */,
+				CA2950CC0C65438C95C0DC65 /* MinSizeRel */,
+				A7F5BEEF09A740CD973C6E65 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012C526030F8418CB65AD467 /* Project object */;
+}

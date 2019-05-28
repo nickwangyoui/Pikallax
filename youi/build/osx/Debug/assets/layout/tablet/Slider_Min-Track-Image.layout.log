@@ -1,0 +1,74 @@
+activecomp {
+  name: "Slider_Min-Track-Image"
+  width: 1568
+  height: 66
+  defaultcameradistance: 2177.7778
+  layer {
+    name: "ImageNode"
+    id: 535
+    sourceid: 1260
+    transform {
+      anchorPoint {
+        x: 0.5
+        y: 10
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 784
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "width"
+      value: "fill-parent"
+    }
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.94509803921568625
+    green: 0.94509803921568625
+    blue: 0.94509803921568625
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+  properties {
+    key: "layout"
+    value: "CYIStackLayout"
+  }
+  properties {
+    key: "gravity"
+    value: "center"
+  }
+}
+sources {
+  uid: 1260
+  srctype: AE_IMAGE_SRC
+  name: "tablet-min-track.png"
+  width: 1
+  height: 20
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}

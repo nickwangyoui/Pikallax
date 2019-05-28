@@ -1,0 +1,62 @@
+activecomp {
+  name: "Slider_Thumb-Image"
+  width: 48
+  height: 48
+  defaultcameradistance: 66.666664
+  layer {
+    name: "ImageNode"
+    id: 144
+    sourceid: 125
+    transform {
+      anchorPoint {
+        x: 24
+        y: 24
+        z: 0
+      }
+      scale {
+        x: 0.54166669
+        y: 0.54166669
+        z: 1
+      }
+      position {
+        x: 24
+        y: 24
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.94509803921568625
+    green: 0.94509803921568625
+    blue: 0.94509803921568625
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 125
+  srctype: AE_IMAGE_SRC
+  name: "tv-thumb.png"
+  width: 48
+  height: 48
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}

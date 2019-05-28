@@ -1,0 +1,228 @@
+activecomp {
+  name: "Slider_Slider"
+  width: 1634
+  height: 66
+  defaultcameradistance: 2269.4443
+  layer {
+    name: "Max-Track"
+    id: 423
+    sourceid: 629
+    transform {
+      anchorPoint {
+        x: 1568
+        y: 33
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 67
+        y: 50
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 426
+  }
+  layer {
+    name: "Min-Track"
+    id: 424
+    sourceid: 523
+    transform {
+      anchorPoint {
+        x: 0
+        y: 33
+        z: 0
+      }
+      scale {
+        x: 0
+        y: 1
+        z: 1
+      }
+      position {
+        x: 33
+        y: 50
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 427
+  }
+  layer {
+    name: "Thumb"
+    id: 425
+    sourceid: 563
+    transform {
+      anchorPoint {
+        x: 33
+        y: 33
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 33
+        y: 50
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 427
+  }
+  layer {
+    name: "ScaleWidthPropRightAnchor"
+    id: 426
+    sourceid: 860
+    transform {
+      anchorPoint {
+        x: 100
+        y: 50
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1634
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "ScaleWidthPropLeftAnchor"
+    id: 427
+    sourceid: 860
+    transform {
+      anchorPoint {
+        x: 0
+        y: 50
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIScrollBarView"
+  bgcolor {
+    alpha: 1
+    red: 0.94509803921568625
+    green: 0.94509803921568625
+    blue: 0.94509803921568625
+  }
+  properties {
+    key: "componentSubtype"
+    value: "scrollBar"
+  }
+  properties {
+    key: "componentType"
+    value: "bar"
+  }
+  childtemplates: "Slider_Max-Track"
+  childtemplates: "Slider_Min-Track"
+  childtemplates: "Slider_Thumb"
+}
+sources {
+  uid: 629
+  srctype: AE_COMP_SRC
+  name: "Slider_Max-Track.layout"
+  width: 1568
+  height: 66
+  copy_source: true
+}
+sources {
+  uid: 523
+  srctype: AE_COMP_SRC
+  name: "Slider_Min-Track.layout"
+  width: 1568
+  height: 66
+  copy_source: true
+}
+sources {
+  uid: 563
+  srctype: AE_COMP_SRC
+  name: "Slider_Thumb.layout"
+  width: 66
+  height: 66
+  copy_source: true
+}
+sources {
+  uid: 860
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+  copy_source: false
+}

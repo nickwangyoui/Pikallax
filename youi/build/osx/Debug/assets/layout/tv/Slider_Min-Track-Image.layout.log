@@ -1,0 +1,84 @@
+activecomp {
+  name: "Slider_Min-Track-Image"
+  width: 1426
+  height: 48
+  defaultcameradistance: 1980.5555
+  layer {
+    name: "ImageNode"
+    id: 977
+    sourceid: 204
+    transform {
+      anchorPoint {
+        x: 0.5
+        y: 9
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 713
+        y: 24
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    mask {
+      is_closed: false
+      mask_source_id: 2
+    }
+    properties {
+      key: "width"
+      value: "fill-parent"
+    }
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.94509803921568625
+    green: 0.94509803921568625
+    blue: 0.94509803921568625
+  }
+  properties {
+    key: "layout"
+    value: "CYIStackLayout"
+  }
+  properties {
+    key: "gravity"
+    value: "center"
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 204
+  srctype: AE_IMAGE_SRC
+  name: "tv-min-track.png"
+  width: 1
+  height: 18
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 2
+  srctype: AE_MASK_SRC
+  name: "Slider_Min-Track-Image-ImageNode-mask-final.png"
+  copy_source: true
+}

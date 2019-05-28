@@ -217,7 +217,6 @@ const styles = StyleSheet.create({
     zIndex: 1000,
     height: HEIGHT*.5,
     width: WIDTH*.3,
-    resizeMode: 'contain',
   },
   bulbasaurContainer: {
     position: 'absolute',
@@ -227,7 +226,6 @@ const styles = StyleSheet.create({
     zIndex: 1000,
     height: HEIGHT*.5,
     width: WIDTH*.3,
-    resizeMode: 'contain',
   },
   squirtleContainer: {
     position: 'absolute',
@@ -237,7 +235,6 @@ const styles = StyleSheet.create({
     zIndex: 1000,
     height: HEIGHT*.5,
     width: WIDTH*.3,
-    resizeMode: 'contain',
   },
   charmandarContainer: {
     position: 'absolute',
@@ -247,7 +244,7 @@ const styles = StyleSheet.create({
     zIndex: 1000,
     height: HEIGHT-100,
     width: WIDTH-100,
-    resizeMode: 'contain',
+    resizeMode: 'contain'
   },
   pokecenterContainer: {
     position: 'absolute',

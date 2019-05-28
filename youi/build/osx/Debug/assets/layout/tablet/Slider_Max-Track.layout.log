@@ -1,0 +1,106 @@
+activecomp {
+  name: "Slider_Max-Track"
+  width: 1568
+  height: 66
+  defaultcameradistance: 2177.7778
+  layer {
+    name: "Max-Track-Solid"
+    id: 629
+    sourceid: 668
+    transform {
+      anchorPoint {
+        x: 784
+        y: 10
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 784
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Max-Track-Image"
+    id: 630
+    sourceid: 641
+    transform {
+      anchorPoint {
+        x: 784
+        y: 33
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 784
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "scale-mode"
+      value: "stretch"
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.94509803921568625
+    green: 0.94509803921568625
+    blue: 0.94509803921568625
+  }
+  childtemplates: "Slider_Max-Track-Image"
+}
+sources {
+  uid: 668
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.93725502490997314
+    green: 0.93725502490997314
+    blue: 0.93725502490997314
+  }
+  width: 1568
+  height: 20
+  copy_source: false
+}
+sources {
+  uid: 641
+  srctype: AE_COMP_SRC
+  name: "Slider_Max-Track-Image.layout"
+  width: 1568
+  height: 66
+  copy_source: true
+}

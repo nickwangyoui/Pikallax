@@ -1,0 +1,4 @@
+/Users/nickwang/youidev/git/kids/youi/build/osx/CMakeFiles/CopyAssets.dir
+/Users/nickwang/youidev/git/kids/youi/build/osx/CMakeFiles/kids.dir
+/Users/nickwang/youidev/git/kids/youi/build/osx/CMakeFiles/ALL_BUILD.dir
+/Users/nickwang/youidev/git/kids/youi/build/osx/CMakeFiles/ZERO_CHECK.dir

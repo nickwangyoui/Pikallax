@@ -1,0 +1,271 @@
+activecomp {
+  name: "TextInput_Text-Edit-Btn-Clear"
+  width: 120
+  height: 120
+  defaultcameradistance: 166.66667
+  layer {
+    name: "BG-Press"
+    id: 331
+    sourceid: 354
+    transform {
+      anchorPoint {
+        x: 60
+        y: 60
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 60
+        y: 60
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "min-width"
+      value: "92"
+    }
+  }
+  layer {
+    name: "Clear-Btn-Handset.png"
+    id: 332
+    sourceid: 355
+    transform {
+      anchorPoint {
+        x: 17.5
+        y: 17.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 334
+    properties {
+      key: "layoutable"
+      value: "false"
+    }
+  }
+  layer {
+    name: "Clear-Btn-Press-Handset.png"
+    id: 333
+    sourceid: 356
+    transform {
+      anchorPoint {
+        x: 17.5
+        y: 17.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 334
+    properties {
+      key: "layoutable"
+      value: "false"
+    }
+  }
+  layer {
+    name: "Scaler"
+    id: 334
+    sourceid: 262
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 50
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 335
+    properties {
+      key: "layoutable"
+      value: "false"
+    }
+  }
+  layer {
+    name: "NoScaleCenterAnchor"
+    id: 335
+    sourceid: 57
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 60
+        y: 60
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "layoutable"
+      value: "false"
+    }
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  properties {
+    key: "gravity"
+    value: "center"
+  }
+  properties {
+    key: "layout"
+    value: "CYIStackLayout"
+  }
+}
+sources {
+  uid: 354
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.31764706969261169
+    green: 0.73333334922790527
+    blue: 0.78431373834609985
+  }
+  width: 120
+  height: 120
+  copy_source: false
+}
+sources {
+  uid: 355
+  srctype: AE_IMAGE_SRC
+  name: "Clear-Btn-Handset.png"
+  width: 35
+  height: 35
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 356
+  srctype: AE_IMAGE_SRC
+  name: "Clear-Btn-Press-Handset.png"
+  width: 35
+  height: 35
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 262
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+  copy_source: false
+}
+sources {
+  uid: 57
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+  copy_source: false
+}

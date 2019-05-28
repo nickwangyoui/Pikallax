@@ -1,0 +1,225 @@
+activecomp {
+  name: "TextInput_Text-Edit"
+  width: 1888
+  height: 92
+  defaultcameradistance: 2622.2222
+  layer {
+    name: "InputProperties"
+    id: 5
+    sourceid: 51
+    transform {
+      anchorPoint {
+        x: 61
+        y: 46
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1797.6281
+        y: -14
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 7
+  }
+  layer {
+    name: "Text-BG"
+    id: 6
+    sourceid: 20
+    transform {
+      anchorPoint {
+        x: 944
+        y: 46
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 944
+        y: 46
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Text"
+    id: 7
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 2.6280003
+        y: 6.3240013
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 32
+        y: 66.324005
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_LEFT
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.84706008434295654
+        green: 0.84706008434295654
+        blue: 0.84706008434295654
+      }
+      fontName: "Poppins-Regular"
+      isPointText: true
+      isLabel: true
+      text: "Default text"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Clear"
+    id: 8
+    sourceid: 24
+    transform {
+      anchorPoint {
+        x: 46
+        y: 46
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1842
+        y: 46
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPasswordTextEditView"
+  bgcolor {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  properties {
+    key: "componentSubtype"
+    value: "regular"
+  }
+  properties {
+    key: "componentType"
+    value: "input"
+  }
+  properties {
+    key: "usesCustomClass"
+    value: "true"
+  }
+  properties {
+    key: "gravity"
+    value: "left"
+  }
+  childtemplates: "TextInput_Text-Edit-Btn-Clear"
+}
+sources {
+  uid: 51
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.20000000298023224
+    green: 0.20000000298023224
+    blue: 0.20000000298023224
+  }
+  width: 122
+  height: 92
+  copy_source: false
+}
+sources {
+  uid: 20
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 1888
+  height: 92
+  copy_source: false
+}
+sources {
+  uid: 3
+  srctype: AE_FONT_SRC
+  name: "Poppins-Regular"
+  copy_source: true
+  file_name: "yi_Poppins-Regular.ttf"
+  style_name: "Regular"
+}
+sources {
+  uid: 24
+  srctype: AE_COMP_SRC
+  name: "TextInput_Text-Edit-Btn-Clear.layout"
+  width: 92
+  height: 92
+  copy_source: true
+}
