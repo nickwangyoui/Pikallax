@@ -20,6 +20,9 @@
 		"jest": "21.1.0",
 		"react-test-renderer": "16.0.0"
 	},
+	"resolutions": {
+		"react-native/stacktrace-parser": "0.1.4"
+	},
 	"jest": {
 		"preset": "@youi/react-native-youi",
 		"testPathIgnorePatterns": [

@@ -13,6 +13,7 @@ import {
   Image,
   ScrollView,
   StyleSheet,
+  TouchableOpacity,
   Text,
   View,
 } from 'react-native';
@@ -23,7 +24,6 @@ import background from './assets/Forest1.png'
 import background2 from './assets/Park.png'
 import background3 from './assets/Grass.png'
 import PushButton from './components/PushButton';
-import movies from './movies.js'
 import pika from './assets/pika.png'
 import pika2 from './assets/pika2.png'
 import squirtle from './assets/squirtle.png'
@@ -45,8 +45,10 @@ export default class YiReactApp extends Component {
   constructor() {
     super();
     this.state= {
-      scrollX: 0
+      scrollX: 0,
+      source: {uri: 'pika.mp4'}
     };
+    this.videoRef = null;
   }
   handleScroll = (event) => {
     this.setState({scrollX: event.nativeEvent.contentOffset.x})
@@ -54,11 +56,26 @@ export default class YiReactApp extends Component {
     event.preventDefault()
     return false
   }
-  view() {}
+  setPikaFight = () => {
+    this.setState({source: {uri: 'pikapika.mp4'}})
+    this.videoPlayer.play();
+  }
+  setBulbFight = () => {
+    this.setState({source: {uri: 'pikabulb.mp4'}})
+    this.videoPlayer.play();
+  }
+  setSquirtFight = () => {
+    this.setState({source: {uri: 'pikasquirt.mp4'}})
+    this.videoPlayer.play();
+  }
+  setChar = () => {
+    this.setState({source: {uri: 'char.mp4'}})
+    this.videoPlayer.play();
+  }
+
   
   render() {
     let scrollPosition = this.state.scrollX/2
-    let movie = movies[this.state.movieIndex];
     return (
       <View>
         <ScrollView
@@ -104,17 +121,17 @@ export default class YiReactApp extends Component {
           />
         </ScrollView>
         <PushButton 
-          style={[styles.imageContainer2]}
+          style={[styles.pikaContainer2]}
           position={WIDTH-scrollPosition}
-          onPress={this.view}
+          onPress={this.setPikaFight}
           >
-          <Image source={pika2} style={styles.image2}/>
+          <Image source={pika2} style={styles.pika2}/>
         </PushButton>
 
         <PushButton
           style={[styles.bulbasaurContainer]}
           position={2*WIDTH-scrollPosition}
-          onPress={this.view}
+          onPress={this.setBulbFight}
           >
           <Image source={bulbasaur} style={styles.bulbasaur}/>
         </PushButton>
@@ -122,7 +139,7 @@ export default class YiReactApp extends Component {
         <PushButton
           style={[styles.charmandarContainer]}
           position={4*WIDTH-scrollPosition}
-          onPress={this.view}
+          onPress={this.setChar}
           >
           <Image source={charmandar} style={styles.charmandar}/>
         </PushButton>
@@ -130,7 +147,7 @@ export default class YiReactApp extends Component {
         <PushButton
           style={[styles.squirtleContainer]}
           position={6*WIDTH-scrollPosition}
-          onPress={this.view}
+          onPress={this.setSquirtFight}
           >
           <Image source={squirtle} style={styles.squirtle}/>
         </PushButton>
@@ -143,16 +160,29 @@ export default class YiReactApp extends Component {
         </View>
 
         <View
-          style={[styles.pokecenterContainer,{left:9.1*WIDTH-scrollPosition*2}]}
+          style={[styles.pokecenterContainer,{left: 9.1*WIDTH-scrollPosition*2}]}
           onPress={this.view}
           >
           <Image source={pokecenter} style={styles.pokecenter}/>
         </View>
         <View
-          style={[styles.pokecenterContainer,{left:18.5*WIDTH-scrollPosition*2}]}
+          style={[styles.pokecenterContainer,{left: 18.5*WIDTH-scrollPosition*2}]}
           onPress={this.view}
           >
           <Image source={pokecenter} style={styles.pokecenter}/>
+        </View>
+        <View style={{flex: 1, position:'absolute', top: 10, right: 20}}>
+          <Video
+            ref={ ref => this.videoPlayer = ref }
+            style={{height: 200, width: 200, flex: 1}}
+            source={this.state.source}
+            onReady={ () => {
+              if (this.videoPlayer) {
+                this.videoPlayer.play();
+              }
+            }}
+            mute={true}
+          />
         </View>
       </View>
     );
@@ -174,14 +204,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   },
-  image2: {
+  pika2: {
     zIndex: 1000,
     height: HEIGHT*.7,
     width: WIDTH*.3,
   },
-  imageContainer2: {
-    height: HEIGHT/2,
-    width: WIDTH*8,
+  pikaContainer2: {
     position: 'absolute',
     top: HEIGHT/3.5,
   },
